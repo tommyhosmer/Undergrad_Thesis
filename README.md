@@ -1,6 +1,8 @@
 # Overview of the Thesis
 Undergraduate senior thesis for Tommy Hosmer, supervised by Dr. Tarek Zohdi. 
 
+If pdf is not rendering please try: https://drive.google.com/file/d/1kn8Ydk4duxIg33kNxVRkrCHRW9YHpwTN/view?usp=share_link
+
 # Outline
 The goal of the project was to develop an artificial neural network (ANN) to model synthetic data representing data center energy consumption and couple it to a a physics-based model for the flow of energy among multiple devices (i.e. an energy management system or EMS). Two genetic algorithms were employed, one to optimize the parameters of the neural network that aren't tuned during the gradient descent of TensorFlow. The second genetic algorithm searched for the optimal flow of energy on each timestep of the physical simulation. The ANN predicted energy consumption as a function of energy delivered to the system, the system's desired energy level, and the energy generated on the previous step; it replaced the need for another physics-based model to determine each device's energy consumption. 
 
