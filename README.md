@@ -16,4 +16,4 @@ The development of the ANN is often left to careful experiments with hyperparame
 The ANN replaced what could have been a computationally expensive CFD solver for the heat transfer in each device to determine the energy needed to cool the device, such as https://doi.org/10.1007/s00466-022-02152-3. 
 
 # Results
-The cost function for the EMS decreased by 66% with the implementation of the genetic algorithm. The genetic algorithm reduced the cost for the ANN by 10%.
+The cost function for the EMS decreased by 66% with the implementation of the genetic algorithm. The genetic algorithm reduced the cost for the ANN by 12%.
